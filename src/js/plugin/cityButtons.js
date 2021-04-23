@@ -41,5 +41,5 @@ $.fn.cityButtons = function() {
     return this
 }
 onLoadHtmlSuccess(function() {
-    $('[wm-city-bottuns]').cityButtons()
+    $('[wm-city-buttons]').cityButtons()
 })
