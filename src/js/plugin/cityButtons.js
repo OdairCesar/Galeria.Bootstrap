@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import { onLoadHtmlSuccess } from '../core/includes'
 
 const duration = 300
 
@@ -39,4 +40,6 @@ $.fn.cityButtons = function() {
     $(this).html(btnGroup)
     return this
 }
-$('[wm-city-bottuns]').cityButtons()
+onLoadHtmlSuccess(function() {
+    $('[wm-city-bottuns]').cityButtons()
+})
