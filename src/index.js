@@ -6,4 +6,5 @@ import 'jquery'
 import 'bootstrap'
 
 //Meus arquivos JS
-import './js/core/includes.js'
+import './js/core/includes'
+import './js/plugin/cityButtons'
